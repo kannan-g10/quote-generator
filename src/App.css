@@ -1,0 +1,46 @@
+.App {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    background: url(https://previews.123rf.com/images/pamela4578/pamela45781808/pamela4578180800223/105617957-winter-themed-background-for-adding-text-or-writing.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 420px;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote h2 {
+    font-size: 2em;
+}
+
+.quote small {
+    font-size: 1.5em;
+}
+
+.btn {
+    display: block;
+    border: 2px solid #008CBA;
+    background: transparent;
+    padding: 10px 15px;
+    color: #008CBA;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background 1s color 1s;
+}
+
+.btn:hover {
+    background-color: #008CBA;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
